@@ -17,9 +17,7 @@ sqlUpdate_after_NGames = 2  #The sql speed database updates after these many gam
 #Set up
 import pygame
 import random as rand
-import SmartMove as sm
 import copy
-import multiprocessing
 from Testing_MCTS import MCTS
 import SQLManipulator as sqlm
 
