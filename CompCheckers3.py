@@ -7,6 +7,7 @@ It can use a computer generated random move, an inputted user move, or use MCTS 
 It keeps track of the simulating and total times and of the average reward per board_state
 
 -Can simulate random games of checkers independantly from MCTS at about 120 games per second
+-Using MCTS without adding to or reading from the SQL db simulates at about 15 games per second
 -However the SQL table is ugly and can only update games into the db at about 5 games per second
 '''
 
