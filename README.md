@@ -3,6 +3,7 @@
 
 **Since:** 2/17/2020
 
+
 ## Description
 This repository encases my senior capstone project for Shenandoah Valley Governor's School. I had very little background information on machine learning and artificial intelligence, so I explored Q-learning, nueral networks, and monte-carlo tree searching. It started with a simple game of checkers played by two random agents. I kept track of the length of games and the win rate for each player. I then changed the state the game is played from; I started one agent with one less piece, which made it 5% more likely to loose. This proved that I could theoretically simulate from each possible board position and move to the highest performing state. Monte-Carlo tree search then expanded this simulation by selectively choosing specific nodes to expand. Once the learning began, instead of game lengths, I kept track of the predicted win rate from each state of the game. To make the code learn even more, I decided to implement a database(in SQL) that would keep track of already recorded board states. This essentially built a lookup tree.
 
