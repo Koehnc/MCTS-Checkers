@@ -1,5 +1,5 @@
 # MCTS-Checkers
-Author: Carter Koehn
+Author: Carter Koehn\n
 Since: 2/17/2020
 
 ## Description
