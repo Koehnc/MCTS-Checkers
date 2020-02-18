@@ -10,7 +10,7 @@ This repository encases my senior capstone project for Shenandoah Valley Governo
 Monte Carlo Tree Search works by selecting a node, expanding it, simulating from it, and then back propogating the score.
 >**Easier said than done**
 
-<img src="MCTS.PNG" width = "500" height = "400"> 
+<img src="MCTS.PNG" width = "600" height = "400"> 
 
 Take an exampe from my checkers program: Initially it starts with one board state. The expand function then looks at every single option that is available, and it simulates a completely random game from each new state. The outcome of the simulated game is then backpropogated to the new moves, and then up to the initial node. The next time it selects a node, it uses a bandit function that balances reward and number of simulations from that node. Once selected, it expands that node and starts all over.
 
