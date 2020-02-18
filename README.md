@@ -11,12 +11,12 @@ Monte-Carlo Tree Search works by selecting a node, expanding it, simulating from
 
 Take an exampe from my checkers program: Initially it starts with one board state. The expand function then looks at every single option that is available, and it simulates a completely random game from each new state. The outcome of the simulated game is then backpropogated to the new moves, and then up to the initial node. The next time it selects a node, it uses a bandit function that balances reward and number of simulations from that node. Once selected, it expands that node and starts all over.
 
-## How to run
+## How to Run
 >Note to self
 
 Make a new file that initializes the table and then runs it
 
-### Performance
+## Performance
 If the checkers game does not use any learning or any MCTS, it performs at ~120 games per second. Once MCTS is introduced, the rate is drastically decreased so much that it can only simulate games between 15 and 20 games per second. When the program updates the states and rewards into and SQL database, simulation drops to ~5 games per second, which makes one full game about 10-15 minutes to run.
 
 ### Future Goals
