@@ -1,6 +1,5 @@
 # MCTS-Checkers
 Author: Carter Koehn
-
 Since: 2/17/2020
 
 ## Description
