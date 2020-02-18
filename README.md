@@ -1,6 +1,5 @@
 # MCTS-Checkers
-**Name:** Carter Koehn
-
+**Name:** Carter Koehn                       
 **Since:** 2/17/2020
 
 
